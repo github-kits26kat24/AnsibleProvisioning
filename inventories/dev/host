@@ -1,7 +1,11 @@
 [web-Server-A]
+54.74.47.237
 
 [web-Server-B]
+52.48.248.28
 
-[app-Server-A]
+[Tomcat-app-Server-A]
+10.0.3.157
 
-[app-Server-B]
+[Tomcat-app-Server-B]
+10.0.4.91
