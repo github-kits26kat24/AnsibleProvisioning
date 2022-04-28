@@ -1,0 +1,17 @@
+---
+- name: systems provisionng
+  hosts: web, app
+
+  become: yes 
+  become_method: sudo
+  remote_user: ec2-user
+
+  tasks: 
+    - name: install apps needed
+      yum:
+        name: "{{ someapps }}"
+        state: present 
+    - name: Start service httpd, if not started
+      ansible.builtin.service:
+        name: "{{ someservices }}"
+        state: "{{ statelevel }}"
