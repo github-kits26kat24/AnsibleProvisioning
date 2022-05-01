@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [web]
 54.170.25.86
 3.250.81.54
@@ -5,3 +6,12 @@
 [app]
 10.0.3.234
 10.0.4.240
+=======
+[web-Server-A]
+
+[web-Server-B]
+
+[Tomcat-app-Server-A]
+
+[Tomcat-app-Server-B]
+>>>>>>> baed50767fa9f6e531cfda22a7a790bd99a8323e
