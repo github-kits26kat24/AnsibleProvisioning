@@ -3,7 +3,7 @@
   hosts: web, app
 
   become: yes 
-  become_method: sudo apt-get
+  become_method: sudo
   remote_user: ubuntu
 
   tasks: 
