@@ -14,7 +14,7 @@
                 )
             }
         }
-            stage ('webdeploy') {
+            stage ('web deploy') {
             environment  {
                 ANSIBLE_HOST_KEY_CHECKING = 'False'
             }
